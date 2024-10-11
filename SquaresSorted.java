@@ -16,7 +16,7 @@ public class SquaresSorted{
 
 		for (int index = 0; index < arrays.length; index++){
 			for (int checker = 0; checker < arrays.length - index - 1; checker++){			
-				if (arrays[checker] > arrays[checker+1]){
+				if (arrays[checker] > arrays[checker + 1]){
 					arrays[checker] = arrays[checker] + arrays[checker + 1];
 					arrays[checker + 1] = arrays[checker] - arrays[checker + 1];
 					arrays[checker] = arrays[checker] - arrays[checker + 1];

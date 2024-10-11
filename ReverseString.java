@@ -9,7 +9,6 @@ public class ReverseString {
 
 	public static String returnReverse(String textTest){
 
-		Scanner input = new Scanner(System.in);
 
 		String [] arrayReverse = textTest.split(" ");
 
